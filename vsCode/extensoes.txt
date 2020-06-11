@@ -20,8 +20,6 @@ Para ativir: Botão direito sobre o codigo e selecionar opção "Open with Live 
 -- ESLint
 Facilitador para javaScript
 
--- Python
-
 -- rest client
 Simular requisições rest.
 Pegar exemplo de requisiões em http://dummy.restapiexample.com/
