@@ -1,0 +1,10 @@
+CTRL + SHIFT + P = Lista de comandos
+CTRL + P = Buscar arquivos
+CTRL + B = Contrai/Retrai janela de codigo
+
+CTRL + P em arquivo aberto = Colocar @ no inicio vai navegar pelas tags/simbolos de desenvolvimento
+CTRL + SHIFT + L = Multiplos cursores para alteração
+CTRL + ALT + Seta = Multiplos cursores para inserção de codigo
+CTRL + ' = Abre o terminal
+ALT + Seta = Mover codigos para cima ou baixo
+ALT + Shift + Seta = Clona o codigo
