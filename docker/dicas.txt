@@ -1,0 +1,26 @@
+-- criando uma imagem
+
+
+
+docker images = lista as imagens
+docker tag <id da imagem> <novo nome da imagem> = renomear uma imagem
+
+docker inspect <nome_imagem> = detalhes da imagem
+docker history <nome_imagem> = history da imagem
+
+-- vendo as imagens que tem no docker hub
+docker search paulodebatin
+
+-- subir uma imagem
+docker login = logar no docker hub
+docker push paulodebatin/<nome da imagem>
+
+-- baixar uma imagem
+docker login = logar no docker hub
+docker pull paulodebatin/<nome da imagem>
+
+-- remover uma imagem
+docker rmi -f <nome da imagem>
+
+-- executar uma imagem
+docker run -ti <nome da imagem>
