@@ -1,0 +1,37 @@
+- Beautify 
+Embelezador de código JS, Html
+
+-- Bookmarks
+Marcar trechos de código
+CTRL+ALT+K (marca e desmarca)
+Depois posso navegar pelo menu do lado esquerdo
+
+-- Bootstrap
+Cria snips (cria trechos de código para facilitar)
+Exemplo digite b4 que ele vai sugerir
+
+-- Live Server
+Refresh automatico no broser
+Testado com arquivo html
+Para ativir: Botão direito sobre o codigo e selecionar opção "Open with Live server"
+
+-- Docker
+
+-- ESLint
+Facilitador para javaScript
+
+-- Python
+
+-- rest client
+Simular requisições rest.
+Pegar exemplo de requisiões em http://dummy.restapiexample.com/
+Criar um arquivo com nome por exemplo "api.http"
+Dentro dar um "get http://dummy.restapiexample.com/api/v1/employees"
+
+-- Auto rename tag
+Renomear uma tag pelo inicio ele ja renomeia no fechamento
+
+-- Browse preview
+
+-- Rainbow Brackets
+Colorir os parenteses, chaves, colchetes para não se perder.
