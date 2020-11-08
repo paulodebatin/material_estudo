@@ -8,3 +8,9 @@ CTRL + ALT + Seta = Multiplos cursores para inserção de codigo
 CTRL + ' = Abre o terminal
 ALT + Seta = Mover codigos para cima ou baixo
 ALT + Shift + Seta = Clona o codigo
+
+Ctrl + Shift + K = Excluir linha
+Ctrl + Enter = Inserir linha abaixo
+Ctrl + Shift + Enter I= nserir linha acima
+
+https://www.linkedin.com/pulse/todos-os-atalhos-do-vs-code-mateus-barbosa
