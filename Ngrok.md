@@ -1,6 +1,8 @@
 # Ngrok
 O Ngrok expõe servidores locais atrás de NATs e firewalls para a Internet pública em túneis seguros.
 https://ngrok.com/
+https://ngrok.com/docs
+https://medium.com/desenvolvendo-com-paixao/ngrok-do-localhost-para-o-mundo-5445ad08419
 
 1) Instalação:
 a) Faça o download https://ngrok.com/download
@@ -14,9 +16,13 @@ Será gerado o arquivo ngrok.yml em disco. Em linux, geramente em /home/user. Ex
 
 3) Expondo uma porta
 ./ngrok http 8080
-
-4) Ajuda
+	
+4) Protegendo seu tunel com senha
+./ngrok http -auth="paulo:senha123" 8000	
+	
+5) Ajuda
 ./ngrok help
 
-
+6) Interface para verificar as requisições
+http://127.0.0.1:4040/
 
