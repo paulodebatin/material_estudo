@@ -1,6 +1,6 @@
 #Comandos Linux
 
--- ver tamanho dos arquivos
+-- ver tamanho dos arquivos-
 ls -lah
 
 -- apagar um diretorio
@@ -44,3 +44,6 @@ pwd
 
 -- criar um diretorio
 mkdir nome_pasta
+
+-- ver número do ip local da máquina
+hostname -I

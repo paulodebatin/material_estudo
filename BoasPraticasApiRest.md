@@ -3,10 +3,13 @@
 - Uso correto dos verbos HTTP;
 - Rodar sobre https;
 - Tratamento de CORS;
-- Controle de segurança - Autenticação (Bearer, Oauth2);
+- Controle de segurança - Autenticação (Bearer, Oauth2) ou jogar sobre uma API Gateway (AWS, Kong);
 - Validação de dados de entrada (Bean Validator);
 - Registro de todos as requisições (dados de entrada, dados de saída, tempo de processamento);
 - Crie uma estratégia de versionamento na API
+- Controle de timeout (API Gateway) 
+- Retries (API Gateway) 
+- Limite de acesso por tempo (API Gateway)
 - Tratamento de erro genérico;
 - Não expor todos os dados. Devolva apenas os dados necessários (cuidado com os list, trate paginação). Não exponha a classe de modelo. 
 Não devolva campos nulos. Use compreensão.

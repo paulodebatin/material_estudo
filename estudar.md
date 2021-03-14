@@ -10,3 +10,11 @@ https://www.youtube.com/watch?v=JF6SVN-Mwhc
 
 # Kubernetes - criando o ambiente local
 https://www.youtube.com/watch?v=pT5myDki4oU
+
+# Como criar CI/CD com GitHub Actions e Azure App Service
+https://www.youtube.com/watch?v=plK-Aku-qEs
+
+
+
+# Contatos
+wesleywillians@gmail.com - Full Cicle
