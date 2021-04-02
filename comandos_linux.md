@@ -47,3 +47,13 @@ mkdir nome_pasta
 
 -- ver número do ip local da máquina
 hostname -I
+
+-- vendo informações do processador
+cat /proc/cpuinfo
+lscp
+lscpu | grep -E '^Thread|^Core|^Socket|^CPU\('
+
+-- Telnet (testar conexão com um ip)
+telnet
+open
+192.168.0.16 6379
