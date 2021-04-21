@@ -1,6 +1,5 @@
 #Criando subdomínio no Linux
 
-
 Ex.: saas.sistema.com.br apontar para localhost
 
 a) instalar nscddaemon.

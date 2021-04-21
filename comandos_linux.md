@@ -57,3 +57,32 @@ lscpu | grep -E '^Thread|^Core|^Socket|^CPU\('
 telnet
 open
 192.168.0.16 6379
+
+-- Mudar o prompt de comando
+PS1=" »»» "
+
+-- Ver processos para poder matá-los
+Pressione as teclas ALT + F2 e digite: gnome-system-monitor e dê enter
+
+-- minimizar a jabela aberta ao clicar no ícone
+> gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+
+-- TMUX
+> sudo apt install tmux
+> tmux
+Dividir painel na vertical: CTRL+B,	%
+Dividir painel na horizontal: CTRL+B, “
+Navegar entre os paineis CTRL+B, setas
+Eliminar o painel: CTRL+B, x
+Listas as sessoes: tmux ls
+Restaurar uma sessão fechada: tmux attach-session -t <indice da janela>
+Matar definitivamente a session: tmux kill-session -t <indice da janela>
+
+
+- Atalhos Linux
+Colaca a janela para direira: Super + seta para direita 
+Colaca a janela para esquerda: Super + seta para esquerda
+Maximiza  a janela: Super + seta para cima
+Minimiza  a janela: Super + seta para baixo
+Abrir terminal: CTRL+ALT+T
+
