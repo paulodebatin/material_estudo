@@ -26,8 +26,26 @@ Com o token gerado, informe no link abaixo
 
 git remote set-url origin https://paulo.debatin:<token>@git.edusoft.com.br/mentorweb/edusoftapi.git
 
+Exemplos:
+git remote set-url origin https://paulo.debatin:Pi_jpv5Xk_rJRawMruwT@git.edusoft.com.br/mentorweb/edusoftapi.git
+git remote set-url origin https://paulo.debatin:Pi_jpv5Xk_rJRawMruwT@git.edusoft.com.br/mentorweb/mentorweb.git
+git remote set-url origin https://paulo.debatin:Pi_jpv5Xk_rJRawMruwT@git.edusoft.com.br/mentorweb/edusoft-common.git
+
 https://fullcycle.com.br/git-e-github/
 
 # 4) How do you clone a Git repository into a specific folder?
 git clone https://github.com/eugenp/tutorials.git  <nome da pasta>
+
+# Adicionando uma pasta a um novo repositorio
+echo "# flutter" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/paulodebatin/flutter.git
+git push -u origin main
+
+# Exemplo de como trabalhar com GitFlow
+https://www.youtube.com/watch?v=wzxBR4pOTTs&list=PLDqnSpzNKDvkfF_ZMfukmOG3MtGKfXlfJ&index=5
+
 

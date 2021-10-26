@@ -15,3 +15,10 @@ nano /etc/hosts
 
 d) Para acessar o sistema
 http://saas.sistema.com.br
+
+
+http://saas.sistema.com.br:8082/api/actuator/prometheus
+http://ace.mentorweb:8082/api/actuator/prometheus
+http://modular.mentorweb:8082/api/actuator/prometheus
+
+curl -i --header 'kong-debug: 1' http://ace.mentorweb:8000/cal/api/actuator/prometheus

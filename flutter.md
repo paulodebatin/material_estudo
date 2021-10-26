@@ -35,5 +35,22 @@ c) Rodar a aplicação com o emaulador
 8) Adicionando suporte da app para uma aplicação desktop (exemplo para Linux)
 Na pasta do projeto:
 > flutter create --platforms=linux .
+> flutter build linux
 Será criado o executável em ~projeto/build/linux/release/bundle
 Para maiores detalhes: https://flutter.dev/desktop
+
+8) Trocar ícone
+Android: 
+- AndroidManifest.xml,  android:label e android:icon
+    Para gerar o ícone: 
+        a) Colocar dependência: flutter_launcher_icons: ^0.9.1 e
+        b) Colocar script no pubspec.yaml:
+            flutter_icons:
+                image_path: "assets/images/fone.png"
+                ios: true
+                remove_alpha_ios: true
+                android: "launcher_icon"
+                adaptive_icon_background: "#FFFFFF"
+                adaptive_icon_foreground: "assets/images/fone-android.png"
+        c) Gerar por linha de comando: 
+            flutter pub run flutter_launcher_icons:main

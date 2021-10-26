@@ -17,8 +17,9 @@ cp -a /home/paulo/ferramentas/eclipse/. /snap/eclipse
 [Desktop Entry]
 Name=Eclipse
 Type=Application
-Exec=/home/paulo/ferramentas/eclipse/eclipse
-Icon=system
+Exec=/home/paulo/ferramentas/desenvolvimento/start.sh
+Icon=/home/paulo/ferramentas/desenvolvimento/eclipse/icon.xpm
+
 
 -- adicionar/atualizar variável de ambiente
 export JAVA_HOME=/home/...
@@ -45,6 +46,9 @@ pwd
 -- criar um diretorio
 mkdir nome_pasta
 
+-- apagar diretório
+rm -rf <nome>
+
 -- ver número do ip local da máquina
 hostname -I
 
@@ -52,6 +56,10 @@ hostname -I
 cat /proc/cpuinfo
 lscp
 lscpu | grep -E '^Thread|^Core|^Socket|^CPU\('
+
+Outras formas:
+htop
+gotop man
 
 -- Telnet (testar conexão com um ip)
 telnet
@@ -86,3 +94,17 @@ Maximiza  a janela: Super + seta para cima
 Minimiza  a janela: Super + seta para baixo
 Abrir terminal: CTRL+ALT+T
 
+-- Ver portas em uso
+lsof -i -n
+netstat -nlp | grep :8081
+-> Para matar o processo:  kill -9 <id processo>
+
+-- Forma boa para listar arquivos
+ls -lha
+
+-- Personalizar linha de comando
+sudo apt install zsh
+https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+Para escolher os temas: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+cd ~
+sudo nano .zshrc
