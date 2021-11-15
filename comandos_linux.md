@@ -57,6 +57,10 @@ cat /proc/cpuinfo
 lscp
 lscpu | grep -E '^Thread|^Core|^Socket|^CPU\('
 
+
+https://elias.praciano.com/2015/09/comandos-para-obter-informacoes-do-seu-sistema-ubuntu/
+
+
 Outras formas:
 htop
 gotop man

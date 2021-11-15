@@ -12,6 +12,7 @@ ALT + Shift + Seta = Clona o codigo
 Ctrl + Shift + K = Excluir linha
 Ctrl + Enter = Inserir linha abaixo
 Ctrl + Shift + Enter = Inserir linha acima
-Ctrl + Shift + I = Reorganizar código
+Ctrl + Shift + I = Reorganizar código no Linux
+Shift + Alt + F = Reorganizar código no Windows
 
 https://www.linkedin.com/pulse/todos-os-atalhos-do-vs-code-mateus-barbosa

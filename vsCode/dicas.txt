@@ -1,0 +1,33 @@
+-- Escrevendo html mais rápido (Emmet abbreviations)
+https://www.youtube.com/watch?v=8jLfTDn3_TM
+https://docs.emmet.io/abbreviations/syntax/
+
+Exemplos:
+html
+div>p>a
+table>tr*4>td*2
+div>h1+p
+p{conteudo qualquer}
+div.header
+nav.menu>ul>li#item$*5>a:link
+form>label*5>input[value][name][id]*1
+input[type=button][name=btn_$][id=btn_$][value]*5   
+table>thead>tr>th*3{header $}^^tbody>tr>td*3{item $}
+div>h1{Titulo qualquer}table>tr*3>td*2^^p
+div>(header>ul>li*2>a)+footer>p
+td[title="Hello world!" colspan=3]
+
+Algumas observações:
+{conteudo} = Coloque entre {} um conteúdo da tags
+[propriedade=valor] = Para setar uma propriedade com valor
+$ = para gerar um número sequencial, iniciando em 1
+* num = para criar num tags
+tag+tag+.. = para criar mais de uma tag
+^ para voltar 1
+^^ para voltar 2
+#nome_id  = para colocar id
+(expressoes) = Entre parenteses para criar grupos
+tag.classCss = Para colocar o nome da classe css
+
+
+-- 

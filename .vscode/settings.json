@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "localhost",
+            "database": "DES_EDUSOFTAPI_ICO",
+            "username": "sa",
+            "password": "9qW@1jyT#"
+        }
+    ]
+}
