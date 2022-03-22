@@ -15,6 +15,15 @@ https://www.youtube.com/watch?v=pT5myDki4oU
 https://www.youtube.com/watch?v=plK-Aku-qEs
 
 
+# Mensagerias
+Apache Kafka: https://kafka.apache.org/
+Apache Pulsar: https://pulsar.apache.org/en/
+
+# Métricas 
+Prometheus, DataDog
+
+# Fazer diagramas
+https://whimsical.com/
 
 # Contatos
 wesleywillians@gmail.com - Full Cicle

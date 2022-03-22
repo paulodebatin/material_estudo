@@ -7,7 +7,7 @@ Window -> Preferences -> Java -> Save Options
 3) Aumentar o número de undos no history
 Window -> Preferences -> General -> Editors -> Text Editors
 
-4) Aumentar o número de colunas por linja
+4) Aumentar o número de colunas por linha
 Window -> Preferences -> Java -> Code Style ->  Formatter 
 * Maximum line width
 

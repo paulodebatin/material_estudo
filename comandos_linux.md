@@ -112,3 +112,7 @@ https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
 Para escolher os temas: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 cd ~
 sudo nano .zshrc
+
+-- Auto completar no Shell com Fish
+https://launchpad.net/~fish-shell/+archive/ubuntu/release-3
+https://fishshell.com/
